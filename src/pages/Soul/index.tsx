@@ -1,4 +1,5 @@
 import { Container } from "../../components/atoms/container";
+import { SoulTable } from "../../components/molecules/SoulTable";
 import * as S from "./styles";
 
 export default function Soul(){
@@ -12,6 +13,9 @@ export default function Soul(){
           </S.Description>
         </S.DescriptionContainer>
       </S.Header>
+      <S.MainContent>
+        <SoulTable />
+      </S.MainContent>
     </Container>
   );
 }

@@ -31,3 +31,10 @@ export const Description = styled.p`
   font-family: ${theme.fonts.body};
   text-shadow: 4px 4px 4px #000000;
 `
+
+export const MainContent = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`
