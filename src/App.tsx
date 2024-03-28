@@ -3,6 +3,7 @@ import {
   RouterProvider
 } from 'react-router-dom'
 import Home from './pages/Home'
+import Soul from './pages/Soul'
 import './styles/global.css'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
     },
     {
       path: '/soul',
-      element: <div>Hello Soul Calculator</div>
+      element: <Soul />
     },
     {
       path: '/crit',
