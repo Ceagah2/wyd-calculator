@@ -1,0 +1,43 @@
+Anct                   60% acerto
++10                    45% acerto
+Passar add set         30% acerto  (com item Le)
+Passar add arma        25% acerto
+destrave do 40         95% acerto
+destrave do 90         60% acerto
+Criar Secretas         95% acerto
+Arcana                 60% acerto
+Reset 200              100% acerto
+
+
+Refinações +12++
+
+ Com secretas
+
++12 = 4%  (Alterado pra 8% com bonus)
++13 = 3%
++14 = 2%
++15 = 1%
+
+
+Com refinação
+
+Para      +12  +13  +14  +15
+
+4 Ref. +0 13%  11%  10%  9%
+4 Ref. +1 17%  15%  14%  13%
+4 Ref. +2 21%  19%  18%  17%
+4 Ref. +3 25%  23%  22%  21%
+4 Ref. +4 29%  27%  26%  25%
+4 Ref. +5 33%  31%  30%  29%
+4 Ref. +6 37%  35%  34%  33%
+4 Ref. +7 41%  39%  38%  37%
+4 Ref. +8 53%  51%  50%  49%
+4 Ref. +9 65%  63%  62%  61%
+
+
+Base x XX
+2.2  +11
+2.5  +12
+2.8  +13
+3.2  +14
+3.7  +15
