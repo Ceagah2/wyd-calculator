@@ -5,6 +5,7 @@ export const theme = {
     darkGreen: "#228B22",
     purple: '#800080',
     textGray: "#333333",
+    white: "#ffffff",
   },
   fonts: {
     body: "Playfair Display",
