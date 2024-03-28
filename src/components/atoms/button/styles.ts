@@ -6,7 +6,6 @@ import { IButton } from '../../../types';
 export const ButtonContainer = styled.button<IButton>`
   width: ${(props) => props.width}px;
   height: ${(props) => props.height}px;
-  color: ${(props) => props.color};
   background-color: ${(props) => props.backgroundColor};
   border-radius: 6px;
   border: 1px solid ${(props) => props.backgroundColor};

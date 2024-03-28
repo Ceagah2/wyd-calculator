@@ -5,7 +5,6 @@ export interface IContainer{
 }
 
 export interface IButton extends ButtonHTMLAttributes<HTMLButtonElement>{
-  color: string
   backgroundColor: string
   width: number
   height: number
