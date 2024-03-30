@@ -1,10 +1,12 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from "../../components/atoms/button";
 import { Container } from "../../components/atoms/container";
+import { MenuList } from '../../constants/menu';
 import * as S from "./styles";
 
 export default function Home(){
   const navigator = useNavigate();
+
   return (
     <Container>
       <S.Header>
@@ -16,22 +18,16 @@ export default function Home(){
         </S.DescriptionContainer>
       </S.Header>
       <S.ButtonContainer>
-        <Button
-          text="Soul Calculator"
-          color={""}
-          backgroundColor={""}
-          width={300}
-          height={300}
-          onClick={() => navigator("/soul")}
+       {MenuList.map((item) => (
+         <Button
+           key={item.id}
+           text={item.name}
+           onClick={() => navigator(item.link)} 
+           backgroundColor={''} 
+           width={200} 
+           height={200}
         />
-        <Button
-          text="Critical Calculator"
-          color={""}
-          backgroundColor={""}
-          width={300}
-          height={300}
-          onClick={() => navigator("/crit")}
-        />
+       ))}
       </S.ButtonContainer>
     </Container>
   );
