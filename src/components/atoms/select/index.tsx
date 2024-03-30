@@ -1,27 +1,16 @@
+import { ISoulValues } from "../../../types";
 import { StyledSelect } from "./styles";
 
-export const Select = () => {
-  const SoulValues = [
-    "Selecione sua Soul",
-    "STR",
-    "INT",
-    "DEX",
-    "CONS",
-    "STR + DEX",
-    "STR + INT",
-    "STR + CONS",
-    " INT + DEX",
-    "INT + CONS",
-    "DEX + CONS",
-  ];
+export const Select = (props: ISoulValues) => {
+  const SoulValues = props.values;
 
   return (
-    <StyledSelect>
+    <StyledSelect {...props}>
       {SoulValues.map((soulValue) => (
-        <option key={soulValue} value={soulValue}>
-          {soulValue}
+        <option key={soulValue.name} value={soulValue.value}>
+          {soulValue.name}
         </option>
       ))}
     </StyledSelect>
-  )
-}
+  );
+};

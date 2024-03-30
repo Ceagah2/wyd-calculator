@@ -1,13 +1,20 @@
 import styled from 'styled-components'
 import { theme } from '../../styles/theme'
 
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  width: 100vw;
+`
+
 export const Header = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 20vh;
-  width: 80vw;
   padding: 20px;
 `
 
@@ -37,4 +44,5 @@ export const MainContent = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`
+  height: 100%;
+`;
