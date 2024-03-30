@@ -8,12 +8,11 @@ export const ButtonContainer = styled.button<IButton>`
   height: ${(props) => props.height}px;
   background-color: ${(props) => props.backgroundColor};
   border-radius: 6px;
-  border: 1px solid ${(props) => props.backgroundColor};
+  border: none;
   cursor: pointer;
 
   &:hover {
     color: ${(props) => props.color};
-    border: 1px solid ${theme.colors.richYellow};
     scale: 1.05;
     transition: 0.3s ease-in-out;
   }
