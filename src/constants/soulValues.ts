@@ -1,46 +1,70 @@
 export const SoulValues = [
   {
-    name: "Selecione sua Soul",
-    value: 0,
+    key: "120_forca",
+    label: "Full Força",
+    attributes: [{ name: "STR", multiplier: 2.1 }],
   },
   {
-    name: "STR",
-    value: 120,
+    key: "120_dextreza",
+    label: "Full Destreza",
+    attributes: [{ name: "DEX", multiplier: 2.1 }],
   },
   {
-    name: "INT",
-    value: 120,
+    key: "120_inteligencia",
+    label: "Full Inteligência",
+    attributes: [{ name: "INT", multiplier: 2.1 }],
   },
   {
-    name: "DEX",
-    value: 120,
+    key: "120_constituicao",
+    label: "Full Constituição",
+    attributes: [{ name: "CONS", multiplier: 2.1 }],
   },
   {
-    name: "CONS",
-    value: 120,
+    key: "80_forca_60_dextreza",
+    label: "Força + Destreza",
+    attributes: [
+      { name: "STR", multiplier: 1.8 },
+      { name: "DEX", multiplier: 1.6 },
+    ],
   },
   {
-    name: "STR + DEX",
-    value: Math.round(120 * 0.8 + 120 * 0.6),
+    key: "80_forca_60_inteligencia",
+    label: "Força + Inteligência",
+    attributes: [
+      { name: "STR", multiplier: 1.8 },
+      { name: "INT", multiplier: 1.6 },
+    ],
   },
   {
-    name: "STR + INT",
-    value: Math.round(120 * 0.8 + 120 * 0.6),
+    key: "80_forca_60_constituicao",
+    label: "Força + Constituição",
+    attributes: [
+      { name: "STR", multiplier: 1.8 },
+      { name: "CONS", multiplier: 1.6 },
+    ],
   },
   {
-    name: "STR + CONS",
-    value: Math.round(120 * 0.8 + 120 * 0.6),
+    key: "80_dextreza_60_inteligencia",
+    label: "Destreza +  Inteligência",
+    attributes: [
+      { name: "DEX", multiplier: 1.8 },
+      { name: "INT", multiplier: 1.6 },
+    ],
   },
   {
-    name: "INT + DEX",
-    value: Math.round(120 * 0.8 + 120 * 0.6),
+    key: "80_dextreza_60_constituicao",
+    label: "Destreza +  Constituição",
+    attributes: [
+      { name: "DEX", multiplier: 1.8 },
+      { name: "CONS", multiplier: 1.6 },
+    ],
   },
   {
-    name: "INT + CONS",
-    value: Math.round(120 * 0.8 + 120 * 0.6),
-  },
-  {
-    name: "DEX + CONS",
-    value: Math.round(120 * 0.8 + 120 * 0.6),
+    key: "80_inteligencia_60_constituicao",
+    label: "Inteligência + Constituição",
+    attributes: [
+      { name: "INT", multiplier: 1.8 },
+      { name: "CONS", multiplier: 1.6 },
+    ],
   },
 ];

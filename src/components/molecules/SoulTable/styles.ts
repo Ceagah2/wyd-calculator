@@ -2,14 +2,22 @@ import styled from 'styled-components';
 import { theme } from '../../../styles/theme';
 
 export const TableContainer = styled.div`
-  width: 50vw;
+  width: 70vw;
   height: 40vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 `
 
+export const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+`
 export const Table = styled.table`
   width: 40%;
   height: 100%;
@@ -44,4 +52,5 @@ export const Footer = styled.div`
   font-family: ${theme.fonts.heading};
   width: 40%;
   height: 75px;
+  margin-bottom: 20px;
 `

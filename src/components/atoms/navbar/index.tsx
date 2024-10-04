@@ -7,7 +7,7 @@ export const Navbar = () => {
   const navigate = useNavigate();
   return (
     <S.Container>
-      <S.Logo src={Logo} />
+      <S.Logo src={Logo} onClick={() => navigate('/')}/>
       <S.Menu>
         <S.MenuItem onClick={() => navigate('/')}>Home</S.MenuItem>
         {MenuList.map((item) => (

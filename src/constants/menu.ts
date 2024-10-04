@@ -4,16 +4,11 @@ export const MenuList = [
     name: "Soul Calculator",
     link: "/soul",
   },
-  {
-    id: 2,
-    name: "Critical Calculator",
-    link: "/crit",
-  },
-  {
-    id: 3,
-    name: "Refinements Calculator",
-    link: "/refi",
-  }
+  // {
+  //   id: 2,
+  //   name: "Refinements Calculator",
+  //   link: "/refi",
+  // }
 ]
 
 export const RefiList = [

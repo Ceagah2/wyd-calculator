@@ -1,16 +1,12 @@
-import { ISoulValues } from "../../../types";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { ISelect } from "../../../types";
 import { StyledSelect } from "./styles";
 
-export const Select = (props: ISoulValues) => {
-  const SoulValues = props.values;
+export const Select = (props: ISelect) => {
 
   return (
-    <StyledSelect {...props}>
-      {SoulValues.map((soulValue) => (
-        <option key={soulValue.name} value={soulValue.value}>
-          {soulValue.name}
-        </option>
-      ))}
+    <StyledSelect onChange={props.onChange}>
+     {props.children}
     </StyledSelect>
   );
 };
