@@ -5,6 +5,7 @@ import { RefiList } from "../../constants/menu";
 import * as S from './styles';
 export default function Refinements() {
   const [refiValue, setRefiValue] = useState(0);
+  console.log(refiValue)
   return (
     <Container>
       <Navbar />
